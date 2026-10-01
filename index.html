@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mountain View Guesthouse | Graskop</title>
+  <meta name="description" content="Comfortable guesthouse accommodation in Graskop, Mpumalanga. Enquire about rooms, rates and availability.">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="nav">
+  <a class="brand" href="#home">Mountain View <span>Guesthouse</span></a>
+  <button class="menu" aria-label="Open menu">☰</button>
+  <nav>
+    <a href="#rooms">Rooms</a>
+    <a href="#about">About</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#explore">Explore</a>
+    <a class="nav-cta" href="#contact">Book / Enquire</a>
+  </nav>
+</header>
+
+<main>
+<section id="home" class="hero">
+  <div class="hero-overlay"></div>
+  <div class="hero-content">
+    <p class="eyebrow">GRASKOP · MPUMALANGA</p>
+    <h1>Your comfortable stay in the heart of the Panorama Route.</h1>
+    <p>Relax, explore and enjoy warm local hospitality close to some of Mpumalanga's most beautiful attractions.</p>
+    <div class="buttons">
+      <a class="btn primary" href="#rooms">View rooms</a>
+      <a class="btn ghost" href="https://wa.me/27700000000?text=Hi%20Mountain%20View%20Guesthouse%2C%20I%27d%20like%20to%20enquire%20about%20a%20stay." target="_blank">WhatsApp us</a>
+    </div>
+  </div>
+</section>
+
+<section class="intro">
+  <div>
+    <p class="eyebrow">WELCOME</p>
+    <h2>A peaceful base for your Mpumalanga adventure.</h2>
+  </div>
+  <p>Mountain View Guesthouse offers comfortable accommodation for travellers exploring Graskop, God's Window, the Blyde River Canyon, waterfalls and the Panorama Route.</p>
+</section>
+
+<section id="rooms" class="section">
+  <div class="section-head">
+    <div><p class="eyebrow">ACCOMMODATION</p><h2>Stay your way</h2></div>
+    <p>Simple, comfortable rooms designed for short getaways and longer stays.</p>
+  </div>
+  <div class="cards">
+    <article class="card">
+      <div class="photo room1"></div>
+      <div class="card-body"><h3>Standard Room</h3><p>Comfortable room for up to two guests with a private bathroom and Wi-Fi.</p><strong>From R850 / night</strong><a href="#contact">Enquire →</a></div>
+    </article>
+    <article class="card">
+      <div class="photo room2"></div>
+      <div class="card-body"><h3>Deluxe Room</h3><p>Spacious accommodation with a relaxed atmosphere and extra room to unwind.</p><strong>From R1,050 / night</strong><a href="#contact">Enquire →</a></div>
+    </article>
+    <article class="card">
+      <div class="photo room3"></div>
+      <div class="card-body"><h3>Family Room</h3><p>A practical option for families or small groups travelling together.</p><strong>From R1,350 / night</strong><a href="#contact">Enquire →</a></div>
+    </article>
+  </div>
+</section>
+
+<section id="about" class="split">
+  <div class="large-photo about-photo"></div>
+  <div class="split-copy">
+    <p class="eyebrow">ABOUT US</p>
+    <h2>Close to the sights. Comfortable enough to feel at home.</h2>
+    <p>Whether you're stopping in Graskop for one night or using it as your base for the Panorama Route, we're here to make your stay easy and comfortable.</p>
+    <div class="features">
+      <span>✓ Free Wi-Fi</span><span>✓ Secure parking</span><span>✓ Breakfast available</span><span>✓ Local attractions nearby</span>
+    </div>
+  </div>
+</section>
+
+<section id="gallery" class="section">
+  <div class="section-head"><div><p class="eyebrow">GALLERY</p><h2>A glimpse of your stay</h2></div><p>Replace these demo images with the property's real photographs.</p></div>
+  <div class="gallery">
+    <div class="gallery-img g1"></div><div class="gallery-img g2"></div><div class="gallery-img g3"></div>
+    <div class="gallery-img g4"></div><div class="gallery-img g5"></div><div class="gallery-img g6"></div>
+  </div>
+</section>
+
+<section id="explore" class="explore">
+  <div class="section-head"><div><p class="eyebrow">EXPLORE GRASKOP</p><h2>Adventure starts nearby.</h2></div></div>
+  <div class="attractions">
+    <div><span>01</span><h3>God's Window</h3><p>Panoramic viewpoints and dramatic escarpment scenery.</p></div>
+    <div><span>02</span><h3>Blyde River Canyon</h3><p>Explore one of South Africa's great natural landscapes.</p></div>
+    <div><span>03</span><h3>Graskop Gorge</h3><p>Adventure activities, views and spectacular scenery.</p></div>
+    <div><span>04</span><h3>Waterfalls &amp; Pilgrim's Rest</h3><p>Discover waterfalls, history and scenic drives around the area.</p></div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div>
+    <p class="eyebrow">BOOK YOUR STAY</p>
+    <h2>Ready to explore Graskop?</h2>
+    <p>Send us your dates and number of guests and we'll get back to you with availability.</p>
+    <div class="contact-details">
+      <p>📱 <strong>+27 70 000 0000</strong></p>
+      <p>✉️ bookings@mountainviewdemo.co.za</p>
+      <p>📍 Graskop, Mpumalanga, South Africa</p>
+    </div>
+  </div>
+  <form onsubmit="sendWhatsApp(event)">
+    <label>Your name<input id="name" required></label>
+    <label>Check-in<input id="checkin" type="date" required></label>
+    <label>Check-out<input id="checkout" type="date" required></label>
+    <label>Guests<input id="guests" type="number" min="1" value="2" required></label>
+    <button class="btn primary" type="submit">Send enquiry on WhatsApp</button>
+  </form>
+</section>
+</main>
+
+<footer><strong>Mountain View Guesthouse</strong><span>Graskop · Mpumalanga</span><span>Demo website created for presentation purposes.</span></footer>
+
+<script>
+const menu = document.querySelector('.menu');
+const nav = document.querySelector('nav');
+menu.addEventListener('click', () => nav.classList.toggle('open'));
+
+function sendWhatsApp(e) {
+  e.preventDefault();
+  const name = document.getElementById('name').value;
+  const inDate = document.getElementById('checkin').value;
+  const outDate = document.getElementById('checkout').value;
+  const guests = document.getElementById('guests').value;
+  const msg = `Hi Mountain View Guesthouse, my name is ${name}. I'd like to enquire about availability from ${inDate} to ${outDate} for ${guests} guest(s).`;
+  window.open('https://wa.me/27700000000?text=' + encodeURIComponent(msg), '_blank');
+}
+</script>
+</body>
+</html>
